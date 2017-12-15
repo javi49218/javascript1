@@ -1,0 +1,27 @@
+#contenido
+{
+	margin:0 auto;
+	width: 500px;
+	height: 500px;
+	border:1px solid #2E2E2E;
+	background-color: #BDBDBD;
+	font-family: Arial;
+}
+#contenido h1
+{
+	text-align: center;
+}
+#botones,#info
+{
+	border:1px solid red;
+	width: 80%;
+	margin-left: 10%;
+}
+#botones button
+{
+	width: 24%;
+}
+#info p
+{
+	padding-left: 18%;
+}
