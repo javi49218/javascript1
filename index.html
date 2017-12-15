@@ -3,18 +3,24 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Evaluacion javascript</title>
+	<link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-	<div>
-		<button onclick="mostrar_todo()">Mostrar todo</button>
-		<button onclick="promedio()">Promedio</button>
-		<button onclick="mayor_nota()">Mayor nota</button>
-		<button onclick="menor_nota()">Menor nota</button>
+	<div id="contenido">
+		<h1>Notas de alumnos</h1>
+		<div id="botones">
+			<button onclick="mostrar_todo()">Mostrar todo</button>
+			<button onclick="promedio()">Promedio</button>
+			<button onclick="mayor_nota()">Mayor nota</button>
+			<button onclick="menor_nota()">Menor nota</button>
+		</div>
+		<div id="info">
+			<p id="mostrar"></p>
+			<p id="promedio"></p>
+			<p id="mayor"></p>
+			<p id="menor"></p>
+		</div>
 	</div>
-	<p id="mostrar"></p>
-	<p id="promedio"></p>
-	<p id="mayor"></p>
-	<p id="menor"></p>
 
 	<script src="codigo.js"></script>
 </body>
